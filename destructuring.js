@@ -53,7 +53,8 @@ function greeting({firstName, lastName, title}) {
 */
 
 //Code Here
-function totalPopulation({utah = 1, california = 2, texas = 3, arizona = 4}){
+function totalPopulation({utah: Utah, california: Cali, texas: Teyxas, arizona: aryzona}){
+  return (Utah + Cali + Teyxas + aryzona)
 }
 
 
@@ -68,7 +69,12 @@ function totalPopulation({utah = 1, california = 2, texas = 3, arizona = 4}){
 */
 
 //Code Here
-
+function ingredients(obj){
+  let newArr = []
+  let {carb, fat, protein} = obj;
+  newArr.push(carb,fat,protein);
+  return newArr
+}
 
 
 ////////// PROBLEM 5 //////////
@@ -85,8 +91,13 @@ function totalPopulation({utah = 1, california = 2, texas = 3, arizona = 4}){
   Find the smallest number of the three and return that number.
 */
 
-//Code Here
-
+// //Code Here
+// function largeNumbers({first: second, third}) {
+//   let newArr = {first: second, third}
+//   for (let key in obj){
+//     if (newArr[key] <)
+//   }
+// }
 
 
 ////////// PROBLEM 6 //////////
