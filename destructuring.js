@@ -22,7 +22,7 @@ var carDetails = {
 */
 
 //Code Here
-
+const {color = 'blue', make ='subaru', model = 'something',year = 1997} = carDetails
 
 
 ////////// PROBLEM 2 //////////
@@ -33,9 +33,8 @@ var carDetails = {
   The property names are firstName, lastName, and title.
 */
 
-function greeting( obj ) {
+function greeting({firstName, lastName, title}) {
   //Code Here
-  
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -54,7 +53,8 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+function totalPopulation({utah = 1, california = 2, texas = 3, arizona = 4}){
+}
 
 
 ////////// PROBLEM 4 //////////
