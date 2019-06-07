@@ -92,12 +92,9 @@ function ingredients(obj){
 */
 
 // //Code Here
-// function largeNumbers({first: second, third}) {
-//   let newArr = {first: second, third}
-//   for (let key in obj){
-//     if (newArr[key] <)
-//   }
-// }
+function largeNumbers({first, second, third}) {
+  return Math.min(first,second,third)
+}
 
 
 ////////// PROBLEM 6 //////////
@@ -109,5 +106,11 @@ function ingredients(obj){
 */
 
 //Code Here
-
-
+function numberGroups({a, b, c}){
+  if (Math.max(a.length, b.length, c.length) === a.length){
+    return a
+  } else if (Math.max(a.length, b.length, c.length) === b.length) {
+    return b
+  } else
+  return c
+ }
